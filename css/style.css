@@ -1,0 +1,55 @@
+/*style body*/
+body {
+
+}
+/*style hate*/
+div#index_page {
+    border: 1px solid black;
+}
+
+
+div#footer{
+    height: 120px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+div#hat_page {
+    border: 1px solid red;
+}
+div#logo_vk_inst {
+    display: inline-table;
+    height: 100%;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+div.Logo#inst {
+    margin-left: 30px;
+}
+div.Logo {
+    float: left;
+}
+
+div.Logo img {
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+div#logo_page {
+    float: right;
+}
+div#logo_page img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 5px;
+}
+div#logo_right {
+    float: right;
+    margin-right: 10px;
+}
+div#logo_right img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 5px;
+}
