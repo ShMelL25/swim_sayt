@@ -68,3 +68,18 @@ div#info_img_page {
 div#info_img_page img {
     width: 97%;
 }
+
+
+div#about_us {
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+div#about_us {
+    width: 50%;
+}
+div#about_us_text {
+    width: 50%;
+}
+
