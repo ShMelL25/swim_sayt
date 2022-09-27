@@ -1,16 +1,14 @@
 /*style body*/
 body {
-
+    font-family: 'system-ui';
+    font-size: 28px;
 }
 /*style hate*/
 div#index_page {
-    border: 1px solid black;
+    -border: 1px solid black;
 }
-
-
 div#footer{
     height: 120px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
@@ -21,7 +19,6 @@ div#logo_vk_inst {
     display: inline-table;
     height: 100%;
     vertical-align: middle;
-    border: 1px solid black;
 }
 div.Logo#inst {
     margin-left: 30px;
@@ -36,9 +33,6 @@ div.Logo img {
     margin-left: 10px;
     margin-top: 20px;
 }
-div#logo_page {
-    float: right;
-}
 div#logo_page img{
     max-width: 100px;
     max-height: 100px;
@@ -47,9 +41,30 @@ div#logo_page img{
 div#logo_right {
     float: right;
     margin-right: 10px;
+    margin-left: 90px;
 }
 div#logo_right img{
     max-width: 100px;
     max-height: 100px;
     margin-top: 5px;
+}
+
+
+div#page_head_name {
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+div#name_suit {
+    text-align: center;
+}
+
+div#info_img_page {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+div#info_img_page img {
+    width: 97%;
 }
